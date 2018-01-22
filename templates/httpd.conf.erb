@@ -1,0 +1,8 @@
+<VirtualHost *:80>
+  DocumentRoot <%=node['apacheserver']['directory_path']%>
+  ServerName <%=node['hostname']%>
+  
+  ErrorLog logs/genome-error_log
+  CustomLog logs/genome-access_log common
+
+</VirtualHost>

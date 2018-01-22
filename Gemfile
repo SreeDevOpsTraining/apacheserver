@@ -1,0 +1,7 @@
+source "https://rubygems.org"
+gem "rake"
+gem "rspec"
+gem "chefspec"
+gem "serverspec"
+gem "test-kitchen"
+gem "vagrant"
